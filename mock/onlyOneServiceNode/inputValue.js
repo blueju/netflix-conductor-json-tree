@@ -1,0 +1,53 @@
+export const onlyOneServiceNode = {
+    "nodes": [{
+        "type": "node",
+        "shape": "flow-circle",
+        "size": "72*72",
+        "label": "服务名称",
+        "description": "服务描述",
+        "color": "#FA8C16",
+        "nodetype": "startNode",
+        "x": 169.171875,
+        "y": 57,
+        "id": "29bdce01",
+        "index": 0
+    }, {
+        "type": "node",
+        "size": "100*50",
+        "label": "原子服务名称",
+        "description": "原子服务描述",
+        "color": "#1890ff",
+        "x": 331.171875,
+        "y": 154.5,
+        "id": "7d07ffed",
+        "index": 1
+    }, {
+        "type": "node",
+        "shape": "flow-circle",
+        "size": "80*80",
+        "label": "结束节点",
+        "color": "#FA8C16",
+        "nodetype": "endNode",
+        "x": 556.171875,
+        "y": 180,
+        "id": "b9981203",
+        "index": 2
+    }],
+    "edges": [{
+        "source": "29bdce01",
+        "sourceAnchor": 2,
+        "target": "7d07ffed",
+        "targetAnchor": 3,
+        "id": "0b7aa7a9",
+        "shape": "flow-polyline",
+        "index": 3
+    }, {
+        "source": "7d07ffed",
+        "sourceAnchor": 1,
+        "target": "b9981203",
+        "targetAnchor": 3,
+        "id": "7fbfa762",
+        "shape": "flow-polyline",
+        "index": 4
+    }]
+}

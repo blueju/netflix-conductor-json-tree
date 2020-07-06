@@ -1,0 +1,21 @@
+{
+  "name": "netflix-conductor-json-generator",
+  "version": "1.0.0",
+  "description": "生成 微服务编排框架 Netflix Conductor 可执行的 JSON ",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/ && rollup --config",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "blueju",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "rollup": "^2.19.0"
+  }
+}
